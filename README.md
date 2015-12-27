@@ -13,7 +13,7 @@ After sourcing run_analysis.R please execute the following in an environment whe
 
 produceTidyDataset()
 
-As a result a file named “theFinalSummary.txt” will be created in your working directory.
+As a result a file named “theFinalSummary.txt” will be created in your working directory. Please see Codebook.md for details on the output.
 
 Enjoy!
 

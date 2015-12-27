@@ -1,4 +1,4 @@
-Information about the summary choices made:
+###Information about the summary choices made:
 
 1. The X_test, subject_test and Y_test data was combined
 2. Similarly X_train, subject_train and Y_train data was combined
@@ -10,7 +10,8 @@ Information about the summary choices made:
 8. Wrote the output out to a txt file
 
 
-Information about the variables (including units!) in the data set not contained in the tidy data:
+###Information about the variables (including units!) in the data set not contained in the tidy data:
+
 "subject" - subject number 
 "ActivityName” - alphanumeric description
 "TimeBodyAccelerationMeanX" - time in ms

@@ -1,3 +1,5 @@
+produceTidyDataset <- function(){ 
+
 features<-read.table("UCI HAR Dataset/features.txt",sep = "",header = FALSE,fill = TRUE)
 activity<-read.table("UCI HAR Dataset/activity_labels.txt",sep = "",header = FALSE,fill = TRUE)
 
@@ -60,3 +62,4 @@ grpBy_Activity_Subject<-group_by(dataStdMeanActivity,subject,ActivityName)
 theFinalSummary<-summarize_each(grpBy_Activity_Subject,funs(mean))
 
 write.table(theFinalSummary,file="theFinalSummary.txt",row.names = FALSE)
+}

@@ -10,7 +10,7 @@
 8. Wrote the output out to a txt file
 
 
-###Information about the variables (including units!) in the data set not contained in the tidy data:
+###Information about the variables (including units!) in the data set contained in the tidy data:
 
 "subject" - subject number 
 "ActivityName” - alphanumeric description
